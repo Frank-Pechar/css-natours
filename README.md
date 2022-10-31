@@ -4,6 +4,8 @@ Course Coding Project I Completed. After coding this landing page through the co
 
 App can be run from: https://frank-pechar-natours.netlify.app/
 
+Outdoor Exploring Tours – Landing Page
+
 ARCHITECTURE:
  
 SCSS: 7 – 1 Pattern for Folders and Files
