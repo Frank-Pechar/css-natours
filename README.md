@@ -11,7 +11,7 @@ ARCHITECTURE:
 SCSS: 7 – 1 Pattern for Folders and Files
 BEM Naming convention 
 
-IMPLEMENTED the FOLLOWING in SASS(SCSS):
+IMPLEMENTED the FOLLOWING in SASS(SCSS) and CSS:
 
 - basic website reset
 - responsive images using HTML srcset, sizes, picture, and source elements
