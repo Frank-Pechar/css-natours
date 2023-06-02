@@ -1,6 +1,6 @@
 # Natours Project - Landing Page
 # Outdoor Exploring Tours 
-# Advanced CSS Course Project
+# Advanced CSS - SASS/SCSS Course Project
 ## Description of App Functionality, Features, and Methods
 
 Advanced CSS coding project I completed from Udemy - Advanced CSS and Sass: Flexbox, Grid, Animations and More by Jonas Schmedtmann. After coding this landing page through the course I then added additional features and modifications.
@@ -9,8 +9,9 @@ App can be run from: https://frank-pechar-css-natours.netlify.app
 
 ## This App Uses CSS - SASS/SCSS Features Such As:
 
-- Architecture; SCSS: 7 – 1 Pattern for Folders and Files
+- Architecture: SCSS: 7 – 1 Pattern for Folders and Files
 - BEM Naming convention 
+- Old style float grid system (flexbox and grid used in other projects)
 
 ## Coding Methods and Features Used:
 
@@ -18,7 +19,6 @@ App can be run from: https://frank-pechar-css-natours.netlify.app
 - responsive images using HTML srcset, sizes, picture, and source elements
 - responsive images using multiple conditional CSS media queries for screen size and resolution
 - responsive font sizes based on percentage of user agent font-size
-- created old style float grid system (flexbox and grid used in other projects)
 - built 2-sided rotating cards using perspective, backface-visibility, overflow: hidden
 - CSS only popup modal using :target pseudo-class
 - @mixin, @include, @if, @content, @media to simplify using media query breakpoints
