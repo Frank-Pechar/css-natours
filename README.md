@@ -1,10 +1,13 @@
-# Natours - Advanced CSS Course Project
+# Natours Project - Landing Page
+# Outdoor Exploring Tours 
+# Advanced CSS Course Project
+## Description of App Functionality, Features, and Methods
 
-Outdoor Exploring Tours – Landing Page
+Advanced CSS coding project I completed from Udemy - Advanced CSS and Sass: Flexbox, Grid, Animations and More by Jonas Schmedtmann. After coding this landing page through the course I then added additional features and modifications.
 
-Course Coding Project I Completed. After coding this landing page through the course I then added additional features and modifications.
+App can be run from: https://frank-pechar-css-natours.netlify.app
 
-App can be run from: https://frank-pechar-natours.netlify.app/
+## This App Uses CSS - SASS/SCSS Features Such As:
 
 ARCHITECTURE:
  
