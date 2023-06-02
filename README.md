@@ -9,12 +9,10 @@ App can be run from: https://frank-pechar-css-natours.netlify.app
 
 ## This App Uses CSS - SASS/SCSS Features Such As:
 
-ARCHITECTURE:
- 
-SCSS: 7 – 1 Pattern for Folders and Files
-BEM Naming convention 
+- Architecture; SCSS: 7 – 1 Pattern for Folders and Files
+- BEM Naming convention 
 
-IMPLEMENTED the FOLLOWING in SASS(SCSS) and CSS:
+## Coding Methods and Features Used:
 
 - basic website reset
 - responsive images using HTML srcset, sizes, picture, and source elements
@@ -41,4 +39,4 @@ IMPLEMENTED the FOLLOWING in SASS(SCSS) and CSS:
 - background-clip for gradient effects on text and icons
 - background-blend-mode image and gradient
 - other CSS used – @supports, transform-origin, :not, calc(), outline and outline-offset, skew, box-decoration-break, filter, object-fit, backdrop-filter, table/table-cell, column-(count, gap, rule), hyphens 
-  
+ 
