@@ -1,6 +1,5 @@
-# Natours Project - Landing Page
-# Outdoor Exploring Tours 
-# Advanced CSS - SASS/SCSS Course Project
+# Outdoor Tours Company - Landing Page
+## Advanced CSS - SASS/SCSS Course Project
 ## Description of App Functionality, Features, and Methods
 
 Advanced CSS coding project I completed from Udemy - Advanced CSS and Sass: Flexbox, Grid, Animations and More by Jonas Schmedtmann. 
