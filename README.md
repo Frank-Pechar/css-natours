@@ -1,4 +1,4 @@
-# Outdoor Tours Company - Landing Page
+# Nature Tours Company - Landing Page
 ## Advanced CSS - SASS/SCSS Project
 ## Description of App Functionality, Features, and Methods
 
