@@ -8,7 +8,7 @@ App can be run from: https://frank-pechar-css-natours.netlify.app
 
 ## App Description
 
-This App Showcases Various CSS / SASS Features and Techniques such as: A SCSS: 7 – 1 Architecture Pattern for Folders and Files. BEM Naming convention. Old style Float Grid System (flexbox and Grid used in other projects). Responsive Layouts and Sizing for: Images, Fonts and Text Elements. A Wide Variety of Styling and Animated Effects. And a Background Video.
+This App Showcases Various CSS / SASS Features and Techniques such as: A SCSS: 7 – 1 Architecture Pattern for Folders and Files. BEM Naming convention. Old style Float Grid System (flexbox and Grid used in other projects). Responsive Layouts and Sizing for: Images, Text and Styling Elements. A Wide Variety of Styling and Animated Effects. And a Background Video.
 
 ## App Functionality
 
