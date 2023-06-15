@@ -20,7 +20,7 @@ This App Showcases Various CSS / SASS Features and Techniques such as: A SCSS: 7
 - Click custom radio button in Start Booking Form
 - Hover over various buttons, text, and images for animation effects
 
-## CSS - SASS/SCSS Features and Methods Used
+## CSS - SASS/SCSS Properties, Functions and Features Used
 
 - basic website reset
 - responsive images using HTML srcset, sizes, picture, and source elements
