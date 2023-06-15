@@ -1,18 +1,26 @@
 # Outdoor Tours Company - Landing Page
-## Advanced CSS - SASS/SCSS Course Project
+## Advanced CSS - SASS/SCSS Project
 ## Description of App Functionality, Features, and Methods
 
 Advanced CSS coding project I completed from Udemy - Advanced CSS and Sass: Flexbox, Grid, Animations and More by Jonas Schmedtmann. 
 
 App can be run from: https://frank-pechar-css-natours.netlify.app
 
-## This App Uses CSS - SASS/SCSS Features Such As:
+## App Description
 
-- Architecture: SCSS: 7 – 1 Pattern for Folders and Files
-- BEM Naming convention 
-- Old style float grid system (flexbox and grid used in other projects)
+This App Showcases Various CSS / SASS Features and Techniques such as: A SCSS: 7 – 1 Architecture Pattern for Folders and Files. BEM Naming convention. Old style Float Grid System (flexbox and Grid used in other projects). Responsive Layouts and Sizing for: Images, Fonts and Text Elements. A Wide Variety of Styling and Animated Effects. And a Background Video.
 
-## Coding Methods and Features Used:
+## App Functionality
+
+- Click menu button for pop out animation effect
+- For Desktops hover booking cards for rotation animation
+- Hover over nature photo images for animations
+- Hover over testimonial images for animations
+- Click &lt;BOOK NOW&gt; button for CSS only PopUp
+- Click custom radio button in Start Booking Form
+- Hover over various buttons, text, and images for animation effects
+
+## CSS - SASS/SCSS Features and Methods Used
 
 - basic website reset
 - responsive images using HTML srcset, sizes, picture, and source elements
