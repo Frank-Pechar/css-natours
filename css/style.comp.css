@@ -506,6 +506,16 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s; }
+  .popup .heading-secondary {
+    font-size: 2.5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .popup .heading-secondary {
+        font-size: 2.3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .popup .heading-secondary {
+        font-size: 2rem; } }
+  .popup .heading-tertiary {
+    font-size: 1.5rem; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
     .popup {
       -webkit-backdrop-filter: blur(10px);
@@ -516,23 +526,19 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: table;
-    width: 85%;
+    padding: 4rem 3rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    max-width: 500px;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 0.5rem;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     overflow: hidden;
     opacity: 0;
     transition: all 0.5s 0.2s; }
-  .popup__left {
-    width: 35%;
-    display: table-cell;
-    vertical-align: middle; }
-  .popup__right {
-    width: 65%;
-    display: table-cell;
-    vertical-align: middle;
-    padding: 3rem 2rem; }
   .popup__img {
     display: block;
     width: 100%; }
@@ -540,17 +546,7 @@ body {
       margin-bottom: 3rem; }
   .popup__text {
     font-size: 1.4rem;
-    margin-bottom: 4rem;
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem;
-    -moz-column-rule: 1px solid #eee;
-    column-count: 2;
-    column-gap: 4rem;
-    column-rule: 1px solid #eee;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto; }
+    margin-bottom: 2rem; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -560,8 +556,8 @@ body {
   .popup__close:link, .popup__close:visited {
     display: inline-block;
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 1rem;
+    right: 1rem;
     font-size: 3rem;
     color: #777;
     line-height: 1;
@@ -569,6 +565,9 @@ body {
     transition: all 0.2s; }
   .popup__close:hover {
     color: #55c57a; }
+  .popup .btn.btn--green {
+    padding: 1rem 2.5rem;
+    align-self: center; }
 
 .story {
   width: 75%;
