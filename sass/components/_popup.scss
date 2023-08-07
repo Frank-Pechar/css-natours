@@ -10,6 +10,22 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  & .heading-secondary {
+    font-size: 2.5rem;
+
+    @include respond(tab-port) {
+      font-size: 2.3rem;
+    }
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+
+  & .heading-tertiary {
+    font-size: 1.5rem;
+  }
+
   @supports (-webkit-backdrop-filter: blur(10px)) or
     (backdrop-filter: blur(10px)) {
     -webkit-backdrop-filter: blur(10px);
@@ -19,28 +35,19 @@
 
   &__content {
     @include absCenter;
-    display: table;
-    // height: 60vh;
-    width: 85%;
+    padding: 4rem 3rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    max-width: 500px;
     background-color: $color-white;
-    border-radius: 3px;
+    border-radius: 0.5rem;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     overflow: hidden;
     opacity: 0;
     transition: all 0.5s 0.2s;
-  }
-
-  &__left {
-    width: 35%;
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  &__right {
-    width: 65%;
-    display: table-cell;
-    vertical-align: middle;
-    padding: 3rem 2rem;
   }
 
   &__img {
@@ -53,20 +60,7 @@
 
   &__text {
     font-size: 1.4rem;
-    margin-bottom: 4rem;
-
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem;
-    -moz-column-rule: 1px solid $color-grey-light-2;
-
-    column-count: 2;
-    column-gap: 4rem;
-    column-rule: 1px solid $color-grey-light-2;
-
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
+    margin-bottom: 2rem;
   }
 
   //Open states
@@ -85,8 +79,8 @@
     &:visited {
       display: inline-block;
       position: absolute;
-      top: 1.5rem;
-      right: 1.5rem;
+      top: 1rem;
+      right: 1rem;
       font-size: 3rem;
       color: $color-grey-dark;
       line-height: 1;
@@ -97,5 +91,10 @@
     &:hover {
       color: $color-primary;
     }
+  }
+
+  & .btn.btn--green {
+    padding: 1rem 2.5rem;
+    align-self: center;
   }
 }
