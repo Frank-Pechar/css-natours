@@ -99,6 +99,7 @@ body {
 
 .heading-secondary {
   display: inline-block;
+  padding: 0 2rem;
   font-size: 3.5rem;
   font-weight: 700;
   text-transform: uppercase;
