@@ -17,7 +17,7 @@
       font-size: 2.3rem;
     }
 
-    @include respond(phone) {
+    @include respond(lg-phone) {
       font-size: 2rem;
     }
   }

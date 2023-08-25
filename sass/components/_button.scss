@@ -14,6 +14,10 @@
     //Mods for <button>
     border: none;
     cursor: pointer;
+
+    @include respond(sm-phone) {
+      padding: 1.5rem 3rem;
+    }
   }
 
   &:hover {
