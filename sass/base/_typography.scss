@@ -21,9 +21,14 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-out;
 
-    @include respond(phone) {
-      letter-spacing: 1rem;
-      font-family: 5rem;
+    @include respond(lg-phone) {
+      letter-spacing: 2.5rem;
+      font-size: 5.5rem;
+    }
+
+    @include respond(sm-phone) {
+      letter-spacing: 1.5rem;
+      font-size: 4.5rem;
     }
   }
 
@@ -34,8 +39,13 @@ body {
     letter-spacing: 1rem;
     animation: moveInRight 1s ease-out;
 
-    @include respond(phone) {
+    @include respond(lg-phone) {
       letter-spacing: 0.5rem;
+      font-size: 2.3rem;
+    }
+    @include respond(sm-phone) {
+      letter-spacing: 0.3rem;
+      font-size: 2rem;
     }
   }
 }
@@ -65,9 +75,10 @@ body {
 
   @include respond(tab-port) {
     font-size: 3rem;
+    padding-top: 7rem;
   }
 
-  @include respond(phone) {
+  @include respond(lg-phone) {
     font-size: 2.5rem;
   }
 }
