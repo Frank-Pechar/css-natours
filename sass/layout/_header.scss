@@ -27,7 +27,7 @@
       url(../img/hero.jpg);
   }
 
-  @include respond(phone) {
+  @include respond(lg-phone) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   }
@@ -46,7 +46,7 @@
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translatex(-50%);
     text-align: center;
   }
 }
