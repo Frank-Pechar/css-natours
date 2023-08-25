@@ -32,10 +32,13 @@
 .section-tours {
   background-color: $color-grey-light-1;
   margin-top: -10rem;
-  padding: 25rem 0 15rem 0;
+  padding: 20rem 0 15rem 0;
 
   @include respond(tab-port) {
-    padding: 20rem 0 10rem 0;
+    padding: 13rem 0 10rem 0;
+  }
+  @include respond(lg-phone) {
+    padding: 10rem 0 10rem 0;
   }
 }
 
