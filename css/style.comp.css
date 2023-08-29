@@ -731,7 +731,7 @@ body {
         max-width: 65rem; }
       .row.footer-row {
         max-width: 65rem;
-        padding: 0 1rem; } }
+        padding: 0 2rem; } }
   .row::after {
     content: '';
     display: table;
