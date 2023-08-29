@@ -1,7 +1,7 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 2rem;
 
   @include respond(lg-phone) {
     padding: 0 4rem;
@@ -28,6 +28,7 @@
     &.footer-row {
       max-width: 65rem;
       padding: 0 2rem;
+      text-align: center;
     }
   }
 
