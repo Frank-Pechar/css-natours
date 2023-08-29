@@ -722,11 +722,16 @@ body {
         margin-bottom: 6rem; } }
   @media only screen and (max-width: 65em) {
     .row {
-      max-width: 50rem; }
+      max-width: 50rem;
+      padding: 0 4rem; }
       .row.about-row {
-        max-width: 80rem; }
+        max-width: 85rem;
+        padding: 0 6rem; }
       .row.book-row {
-        max-width: 65rem; } }
+        max-width: 65rem; }
+      .row.footer-row {
+        max-width: 65rem;
+        padding: 0 1rem; } }
   .row::after {
     content: '';
     display: table;
