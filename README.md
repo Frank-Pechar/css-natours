@@ -2,7 +2,7 @@
 ## Advanced CSS - SASS/SCSS Project
 ## Description of App Functionality, Features, and Methods
 
-Advanced CSS coding project I completed from Udemy - Advanced CSS and Sass: Flexbox, Grid, Animations and More by Jonas Schmedtmann. After coding this app, I then made numerous other enhancements and refinements to the original project. 
+Advanced CSS coding project I completed from Udemy - Advanced CSS and Sass: Flexbox, Grid, Animations and More by Jonas Schmedtmann. After coding this project, I then made numerous other enhancements and refinements to the original app. 
 
 App can be run from: https://frank-pechar-css-natours.netlify.app
 
