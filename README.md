@@ -13,7 +13,7 @@ This App Showcases Various CSS / SASS Features and Techniques such as: A SCSS: 7
 ## App Functionality
 
 - Click menu button for pop out animation effect
-- For Desktops hover booking cards for rotation animation
+- Hover or click booking cards for rotation animation
 - Hover over nature photo images for animations
 - Hover over testimonial images for animations
 - Click &lt;BOOK NOW&gt; button for CSS only PopUp
